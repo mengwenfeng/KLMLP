@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="wlp">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="wlp-api-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-api/wlp-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-authority-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-authority/wlp-authority">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-report-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-report/wlp-report">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-quartz-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-quartz/wlp-quartz">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-parameter-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-parameter/wlp-parameter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-tag-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-tag/wlp-tag">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-fqa-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-fqa/wlp-fqa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-simpelfile-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-simpelfile/wlp-simpelfile">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-learn-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-learn/wlp-learn">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wlp-category-3.2.3.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/wlp-category/wlp-category">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="wlp"/>
+        <property name="java-output-path" value="/wlp-web/target/classes"/>
+    </wb-module>
+</project-modules>
